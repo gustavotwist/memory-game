@@ -48,17 +48,5 @@ h2 {
     height: 430px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    transform-style: preserve-3d;
-    perspective: 500px;
-}
-
-.item {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
+    gap10px;
 }

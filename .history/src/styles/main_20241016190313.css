@@ -34,31 +34,5 @@ h2 {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     cursor: pointer;
-    font-weight: 600;
-}
-
-.reset:focus {
-    color: #ec38bc;
-    background-color: #262809;
-}
-
-.game {
-    border: 1px solid red;
-    width: 430px;
-    height: 430px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    transform-style: preserve-3d;
-    perspective: 500px;
-}
-
-.item {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
+    font-weight: ;
 }
