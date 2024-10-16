@@ -11,6 +11,7 @@ const emojis = [
     "🐵",
     "🐸",
     "🐸",
+    "🐸",
 ];
 let openCards = [];
 

@@ -1,0 +1,4 @@
+const emojis = [
+    🦁🦁🐯🐯🐷🐷🦝🦝
+];
+let openCards = [];
