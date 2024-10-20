@@ -41,12 +41,6 @@ function checkMatch() {
         openCards[1].classList.add("boxMatch");
     } else {
         openCards[0].classList.remove("boxOpen");
-        openCards[1].classList.remove("boxOpen");
-    }
-
-    openCards = [];
-
-    if(document.querySelectorAll(".boxMatch").length === emojis.length) {
-        alert("Você venceu !");
+        
     }
 }

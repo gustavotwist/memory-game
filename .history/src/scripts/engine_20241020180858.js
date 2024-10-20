@@ -26,7 +26,7 @@ for(let i=0; i < emojis.length; i++) {
 
 function handleClick() {
     if(openCards.length < 2) {
-        this.classList.add("boxOpen");
+        this.clasuesList.add("boxOpen");
         openCards.push(this);
     }
 
@@ -46,7 +46,5 @@ function checkMatch() {
 
     openCards = [];
 
-    if(document.querySelectorAll(".boxMatch").length === emojis.length) {
-        alert("Você venceu !");
-    }
+    if(document.q)
 }

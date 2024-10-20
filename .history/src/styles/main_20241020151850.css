@@ -79,11 +79,4 @@ h2 {
     opacity: 0.85;
 }
 
-.item.boxOpen {
-    transform: rotateY(0deg);
-}
-
-.boxOpen::after,
-.boxMatch::after {
-    transform: rotateY(180deg);
-}
+.ite

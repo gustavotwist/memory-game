@@ -4,7 +4,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #fc1e8a;
-    user-select: none;
+    user-
 }
 
 .container {
@@ -77,13 +77,4 @@ h2 {
     transform: rotateY(0deg);
     backface-visibility: hidden;
     opacity: 0.85;
-}
-
-.item.boxOpen {
-    transform: rotateY(0deg);
-}
-
-.boxOpen::after,
-.boxMatch::after {
-    transform: rotateY(180deg);
 }

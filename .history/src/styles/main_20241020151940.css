@@ -82,8 +82,3 @@ h2 {
 .item.boxOpen {
     transform: rotateY(0deg);
 }
-
-.boxOpen::after,
-.boxMatch::after {
-    transform: rotateY(180deg);
-}

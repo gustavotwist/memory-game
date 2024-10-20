@@ -43,10 +43,5 @@ function checkMatch() {
         openCards[0].classList.remove("boxOpen");
         openCards[1].classList.remove("boxOpen");
     }
-
-    openCards = [];
-
-    if(document.querySelectorAll(".boxMatch").length === emojis.length) {
-        alert("Você venceu !");
-    }
+    
 }
